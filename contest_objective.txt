@@ -11,3 +11,5 @@ transmit a picture of the target to a ground station.
 Determine the location and location uncertainty of the 
 target within a local coordinate system and report the 
 results to the ground station.
+
+Additional contest information, including the contest rules, can be found at flyaavc.org
