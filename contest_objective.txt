@@ -1,0 +1,13 @@
+
+
+The drone competition objective is described 
+as this by flyaavc.org:
+
+Build a fully autonomous quadrotor that will navigate
+through a GPS-denied, hazard-cluttered indoor 
+environment to search for a target. Take a picture of the 
+target and geolocate a distinct point on it. Wirelessly 
+transmit a picture of the target to a ground station.
+Determine the location and location uncertainty of the 
+target within a local coordinate system and report the 
+results to the ground station.
