@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7123ED01203B44C20086832D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7123ED00203B44C20086832D /* AppDelegate.swift */; };
+		7123ED03203B44C20086832D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7123ED02203B44C20086832D /* ViewController.swift */; };
+		7123ED06203B44C20086832D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7123ED04203B44C20086832D /* Main.storyboard */; };
+		7123ED09203B44C20086832D /* FarmerGPS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7123ED07203B44C20086832D /* FarmerGPS.xcdatamodeld */; };
+		7123ED0B203B44C20086832D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7123ED0A203B44C20086832D /* Assets.xcassets */; };
+		7123ED0E203B44C20086832D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7123ED0C203B44C20086832D /* LaunchScreen.storyboard */; };
+		7123ED19203B44C20086832D /* FarmerGPSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7123ED18203B44C20086832D /* FarmerGPSTests.swift */; };
+		7123ED24203B44C20086832D /* FarmerGPSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7123ED23203B44C20086832D /* FarmerGPSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7123ED15203B44C20086832D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7123ECF5203B44C20086832D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7123ECFC203B44C20086832D;
+			remoteInfo = FarmerGPS;
+		};
+		7123ED20203B44C20086832D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7123ECF5203B44C20086832D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7123ECFC203B44C20086832D;
+			remoteInfo = FarmerGPS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7123ECFD203B44C20086832D /* FarmerGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FarmerGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7123ED00203B44C20086832D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7123ED02203B44C20086832D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7123ED05203B44C20086832D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7123ED08203B44C20086832D /* FarmerGPS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FarmerGPS.xcdatamodel; sourceTree = "<group>"; };
+		7123ED0A203B44C20086832D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7123ED0D203B44C20086832D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7123ED0F203B44C20086832D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7123ED14203B44C20086832D /* FarmerGPSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarmerGPSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7123ED18203B44C20086832D /* FarmerGPSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerGPSTests.swift; sourceTree = "<group>"; };
+		7123ED1A203B44C20086832D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7123ED1F203B44C20086832D /* FarmerGPSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FarmerGPSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7123ED23203B44C20086832D /* FarmerGPSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FarmerGPSUITests.swift; sourceTree = "<group>"; };
+		7123ED25203B44C20086832D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7123ECFA203B44C20086832D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7123ED11203B44C20086832D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7123ED1C203B44C20086832D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7123ECF4203B44C20086832D = {
+			isa = PBXGroup;
+			children = (
+				7123ECFF203B44C20086832D /* FarmerGPS */,
+				7123ED17203B44C20086832D /* FarmerGPSTests */,
+				7123ED22203B44C20086832D /* FarmerGPSUITests */,
+				7123ECFE203B44C20086832D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7123ECFE203B44C20086832D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7123ECFD203B44C20086832D /* FarmerGPS.app */,
+				7123ED14203B44C20086832D /* FarmerGPSTests.xctest */,
+				7123ED1F203B44C20086832D /* FarmerGPSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7123ECFF203B44C20086832D /* FarmerGPS */ = {
+			isa = PBXGroup;
+			children = (
+				7123ED00203B44C20086832D /* AppDelegate.swift */,
+				7123ED02203B44C20086832D /* ViewController.swift */,
+				7123ED04203B44C20086832D /* Main.storyboard */,
+				7123ED0A203B44C20086832D /* Assets.xcassets */,
+				7123ED0C203B44C20086832D /* LaunchScreen.storyboard */,
+				7123ED0F203B44C20086832D /* Info.plist */,
+				7123ED07203B44C20086832D /* FarmerGPS.xcdatamodeld */,
+			);
+			path = FarmerGPS;
+			sourceTree = "<group>";
+		};
+		7123ED17203B44C20086832D /* FarmerGPSTests */ = {
+			isa = PBXGroup;
+			children = (
+				7123ED18203B44C20086832D /* FarmerGPSTests.swift */,
+				7123ED1A203B44C20086832D /* Info.plist */,
+			);
+			path = FarmerGPSTests;
+			sourceTree = "<group>";
+		};
+		7123ED22203B44C20086832D /* FarmerGPSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7123ED23203B44C20086832D /* FarmerGPSUITests.swift */,
+				7123ED25203B44C20086832D /* Info.plist */,
+			);
+			path = FarmerGPSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7123ECFC203B44C20086832D /* FarmerGPS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7123ED28203B44C20086832D /* Build configuration list for PBXNativeTarget "FarmerGPS" */;
+			buildPhases = (
+				7123ECF9203B44C20086832D /* Sources */,
+				7123ECFA203B44C20086832D /* Frameworks */,
+				7123ECFB203B44C20086832D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FarmerGPS;
+			productName = FarmerGPS;
+			productReference = 7123ECFD203B44C20086832D /* FarmerGPS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7123ED13203B44C20086832D /* FarmerGPSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7123ED2B203B44C20086832D /* Build configuration list for PBXNativeTarget "FarmerGPSTests" */;
+			buildPhases = (
+				7123ED10203B44C20086832D /* Sources */,
+				7123ED11203B44C20086832D /* Frameworks */,
+				7123ED12203B44C20086832D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7123ED16203B44C20086832D /* PBXTargetDependency */,
+			);
+			name = FarmerGPSTests;
+			productName = FarmerGPSTests;
+			productReference = 7123ED14203B44C20086832D /* FarmerGPSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7123ED1E203B44C20086832D /* FarmerGPSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7123ED2E203B44C20086832D /* Build configuration list for PBXNativeTarget "FarmerGPSUITests" */;
+			buildPhases = (
+				7123ED1B203B44C20086832D /* Sources */,
+				7123ED1C203B44C20086832D /* Frameworks */,
+				7123ED1D203B44C20086832D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7123ED21203B44C20086832D /* PBXTargetDependency */,
+			);
+			name = FarmerGPSUITests;
+			productName = FarmerGPSUITests;
+			productReference = 7123ED1F203B44C20086832D /* FarmerGPSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7123ECF5203B44C20086832D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "ISA 406";
+				TargetAttributes = {
+					7123ECFC203B44C20086832D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7123ED13203B44C20086832D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7123ECFC203B44C20086832D;
+					};
+					7123ED1E203B44C20086832D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7123ECFC203B44C20086832D;
+					};
+				};
+			};
+			buildConfigurationList = 7123ECF8203B44C20086832D /* Build configuration list for PBXProject "FarmerGPS" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7123ECF4203B44C20086832D;
+			productRefGroup = 7123ECFE203B44C20086832D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7123ECFC203B44C20086832D /* FarmerGPS */,
+				7123ED13203B44C20086832D /* FarmerGPSTests */,
+				7123ED1E203B44C20086832D /* FarmerGPSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7123ECFB203B44C20086832D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7123ED0E203B44C20086832D /* LaunchScreen.storyboard in Resources */,
+				7123ED0B203B44C20086832D /* Assets.xcassets in Resources */,
+				7123ED06203B44C20086832D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7123ED12203B44C20086832D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7123ED1D203B44C20086832D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7123ECF9203B44C20086832D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7123ED09203B44C20086832D /* FarmerGPS.xcdatamodeld in Sources */,
+				7123ED03203B44C20086832D /* ViewController.swift in Sources */,
+				7123ED01203B44C20086832D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7123ED10203B44C20086832D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7123ED19203B44C20086832D /* FarmerGPSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7123ED1B203B44C20086832D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7123ED24203B44C20086832D /* FarmerGPSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7123ED16203B44C20086832D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7123ECFC203B44C20086832D /* FarmerGPS */;
+			targetProxy = 7123ED15203B44C20086832D /* PBXContainerItemProxy */;
+		};
+		7123ED21203B44C20086832D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7123ECFC203B44C20086832D /* FarmerGPS */;
+			targetProxy = 7123ED20203B44C20086832D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7123ED04203B44C20086832D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7123ED05203B44C20086832D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7123ED0C203B44C20086832D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7123ED0D203B44C20086832D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7123ED26203B44C20086832D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7123ED27203B44C20086832D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7123ED29203B44C20086832D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MX6UYLPJZK;
+				INFOPLIST_FILE = FarmerGPS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isa406.FarmerGPS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7123ED2A203B44C20086832D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MX6UYLPJZK;
+				INFOPLIST_FILE = FarmerGPS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isa406.FarmerGPS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7123ED2C203B44C20086832D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FarmerGPSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isa406.FarmerGPSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FarmerGPS.app/FarmerGPS";
+			};
+			name = Debug;
+		};
+		7123ED2D203B44C20086832D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FarmerGPSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isa406.FarmerGPSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FarmerGPS.app/FarmerGPS";
+			};
+			name = Release;
+		};
+		7123ED2F203B44C20086832D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FarmerGPSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isa406.FarmerGPSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FarmerGPS;
+			};
+			name = Debug;
+		};
+		7123ED30203B44C20086832D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FarmerGPSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.isa406.FarmerGPSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FarmerGPS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7123ECF8203B44C20086832D /* Build configuration list for PBXProject "FarmerGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7123ED26203B44C20086832D /* Debug */,
+				7123ED27203B44C20086832D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7123ED28203B44C20086832D /* Build configuration list for PBXNativeTarget "FarmerGPS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7123ED29203B44C20086832D /* Debug */,
+				7123ED2A203B44C20086832D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7123ED2B203B44C20086832D /* Build configuration list for PBXNativeTarget "FarmerGPSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7123ED2C203B44C20086832D /* Debug */,
+				7123ED2D203B44C20086832D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7123ED2E203B44C20086832D /* Build configuration list for PBXNativeTarget "FarmerGPSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7123ED2F203B44C20086832D /* Debug */,
+				7123ED30203B44C20086832D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7123ED07203B44C20086832D /* FarmerGPS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7123ED08203B44C20086832D /* FarmerGPS.xcdatamodel */,
+			);
+			currentVersion = 7123ED08203B44C20086832D /* FarmerGPS.xcdatamodel */;
+			path = FarmerGPS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7123ECF5203B44C20086832D /* Project object */;
+}
